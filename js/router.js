@@ -1,8 +1,10 @@
 export class Router {
   routes = {}
+  links = {}
 
   add(routeName, page) {
     this.routes[routeName] = page
+    this.links[routeName] = routeName
   }
 
   route(event) {
@@ -21,6 +23,8 @@ export class Router {
     fetch(route).then(data => data.text()).then(html => {
       document.querySelector('#app').innerHTML = html
     })
+    console.log(this.links)
+    console.log(this.routes)
   }
   
 }
