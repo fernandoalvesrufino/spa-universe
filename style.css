@@ -7,7 +7,15 @@
 :root {
   font-size: 62.5%;
 
-  --text-color: #FFFFFF;
+  --menu-color: #C4C4CC;
+  --menu-color-selected: #FFFFFF;
+  --title-color: #E1E1E6;
+
+  --color-button: #FFFFFF;
+  --color-button-hover: #02799D;
+
+  --bg-button: transparent;
+  --bg-button-hover: #FFFFFF;
 }
 
 body {
@@ -17,13 +25,16 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   
-  margin: 4.2rem 7.2rem;
-
   font-family: 'Roboto', sans-serif;
   color: var(--text-color);
+
+  width: 100vw;
+  height: 100vh;
 }
 
-
+nav {
+  padding: 4rem 7.2rem;
+}
 
 nav, ul {
   display: flex;
@@ -37,15 +48,67 @@ li {
 
 a {
   text-decoration: none;
-  color: var(--text-color);
+  color: var(--menu-color);
   font-style: normal;
   font-weight: 400;
   line-height: 2.2rem;
-  font-size: 2,2rem;
+  font-size: 2.2rem;
+  
+  transition: all .4s ease;
+}
+
+a:hover {
+  color: var(--menu-color);
 }
 
 li.selected a {
-  font-weight: 700;
+  color: var(--menu-color-selected);
   font-size: 2.4rem;
+  font-weight: 700;
 }
   
+#app {
+  /* width: 65rem; */
+  padding: 6.3rem 3rem;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home h1 {
+  padding-top: 11rem;
+  text-align: center;
+  padding-bottom: 2.4rem;
+  color: var(--title-color);
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 125%;
+}
+
+.home button {
+  align-items: center;
+  padding: 1.2rem 3.2rem;
+
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  text-transform: uppercase;
+
+  border: 2px solid #FFFFFF;
+  border-radius: .5rem;
+
+  background: var(--bg-button);
+  color: var(--color-button);
+  
+  transition: all .4s ease;
+}
+
+.home button:hover {
+  background: var(--bg-button-hover);
+  color: var(--color-button-hover);
+}
