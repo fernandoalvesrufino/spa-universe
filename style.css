@@ -63,7 +63,7 @@ a:hover {
   color: var(--menu-color);
 }
 
-li.selected a {
+li.active a {
   color: var(--menu-color-selected);
   font-size: 2.4rem;
   font-weight: 700;
