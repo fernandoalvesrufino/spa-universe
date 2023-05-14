@@ -41,11 +41,9 @@ The project features the following functionalities:
 - `The Universe` page with information about the universe, its features, and curiosities
 - `Exploration` page with information about space missions carried out by NASA and other space agencies around the world
 
-
 ## How to Use
 
 To access the finished project, [click here](https://fernandoalvesrufino.github.io/spa-universe/).
-
 
 ## License
 This project is under the MIT license.
@@ -77,7 +75,6 @@ by Fernando Rufino
   <img alt="versão desktop da página" src="./assets/print-page.png" width="100%">
 </p>
 
-
 ## Tecnologias
 
 - HTML
@@ -85,7 +82,6 @@ by Fernando Rufino
 - JavaScript
 - Git e GitHub
 - Figma
-
 
 ## Projeto
 
@@ -103,7 +99,6 @@ O projeto apresenta as seguintes funcionalidades:
 ## Como Usar
 
 - Para acessar ao projeto finalizado, [clique aqui](https://fernandoalvesrufino.github.io/spa-universe/).
-
 
 ## Licença
 
