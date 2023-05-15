@@ -89,11 +89,11 @@ Este é um projeto de uma SPA (Single Page Application) desenvolvida para aprese
 ### Funcionalidades
 O projeto apresenta as seguintes funcionalidades:
 
-- Navegação entre as páginas usando links no menu de navegação
-- Atualização do conteúdo da página sem a necessidade de recarregar a página inteira
-- Página `Home`
-- Página `O Universo` com informações sobre o universo, suas características e curiosidades
-- Página `Exploração` com informações sobre as missões espaciais realizadas pela NASA e outras agências espaciais ao redor do mundo
+- Navegação entre as páginas usando links no menu de navegação;
+- Atualização do conteúdo da página sem a necessidade de recarregar a página inteira;
+- Página `Home`;
+- Página `O Universo` com informações sobre o universo, suas características e curiosidades;
+- Página `Exploração` com informações sobre as missões espaciais realizadas pela NASA e outras agências espaciais ao redor do mundo.
 
 ## Como Usar
 
