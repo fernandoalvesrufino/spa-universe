@@ -26,7 +26,6 @@
 - Git and GitHub
 - Figma
 
-
 ## Project
 
 This is a SPA (Single Page Application) project developed to present information about the universe and space exploration.
